@@ -1,0 +1,29 @@
+[
+  {
+    "source": "QRNG (ANU)",
+    "bytes_tested": 102400,
+    "ones_proportion": 0.500582,
+    "deviation_from_ideal": 0.000582,
+    "shannon_entropy_bits": 7.998066,
+    "serial_correlation": -0.001427,
+    "runs_ratio": 0.500497
+  },
+  {
+    "source": "CSPRNG (os.urandom)",
+    "bytes_tested": 102400,
+    "ones_proportion": 0.499243,
+    "deviation_from_ideal": 0.000757,
+    "shannon_entropy_bits": 7.998122,
+    "serial_correlation": -0.002604,
+    "runs_ratio": 0.499226
+  },
+  {
+    "source": "PRNG (random)",
+    "bytes_tested": 102400,
+    "ones_proportion": 0.500164,
+    "deviation_from_ideal": 0.000164,
+    "shannon_entropy_bits": 7.998507,
+    "serial_correlation": -0.003083,
+    "runs_ratio": 0.499692
+  }
+]
